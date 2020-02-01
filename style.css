@@ -1,4 +1,4 @@
- body{
+body{
     font-family: 'Roboto',Arial, Helvetica, sans-serif;
  }
 
@@ -87,6 +87,9 @@ h1,.font-size-36{
     border-bottom: solid 3px #58133C;
 }
 /* Contact */
+.bg-contact{
+    background: linear-gradient(0.25turn, rgb(163,116,148) 50%, rgb(162,218,234) 50%);
+}
 .w-66px{
     width: 66px;
     height: 66px;
