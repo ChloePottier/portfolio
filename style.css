@@ -28,15 +28,42 @@
 .bg-prune-light{
     background-color: rgb(163,116,148);
 }
-.bg-light-extralight{
-    background-color: rgb(163,116,148);
-}
 .bg-white-op40{
     background-color: rgba(255,255,255,.4);
 }
 
 /* Font size */
-h1{
-    font-size: 2.25rem;
+h1, .font-family-walter{
     font-family: 'Walter Turncoat', cursive;
+}
+h1,.font-size-36{
+    font-size: 2.25rem;
+}
+.font-size-31{
+    font-size: 1.93rem;
+}
+.line-height{
+    line-height: 1.8rem;
+}
+
+/* Formation */
+#formation{
+    border-bottom: solid 3px #58133C;
+}
+/* Contact */
+.w-66px{
+    width: 66px;
+    height: 66px;
+}
+.github{
+    background-image: url(img/******);
+}
+.github:hover{
+    background-image: url(img/******);
+}
+.linkedin{
+    background-image: url(img/******);
+}
+.linkedin:hover{
+    background-image: url(img/******);
 }
