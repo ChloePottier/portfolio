@@ -48,6 +48,10 @@ h1,.font-size-36{
     line-height: 1.8rem;
 }
 /* Menus */
+nav ul li a{
+    scroll-behavior : smooth ; 
+    /* défilement */
+}
 .menu-nav ul li a{
     padding-left: 1rem;
 }
