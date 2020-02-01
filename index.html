@@ -17,32 +17,32 @@
     <header>
         <div class="container-fluid">
             <div class="container">
-                <div class="row navigation">
+                <div class="row nav-top">
                     <div class="col">
                         <!-- logo cp -->
                     </div>
                     <div class="col">
                         <nav class="menu-nav d-none d-md-flex">
-                            <ul class="list-unstyled d-flex justify-content-end">
-                                <li class=""><a href="" class="" id="portfolio">Portfolio</a></li>
-                                <li class=""><a href="" class="" id="competences">Compétences</a></li>
-                                <li class=""><a href="" class="" id="formation">Formation</a></li>
-                                <li class=""><a href="" class="" id="experience">Expérience</a></li>
-                                <li class=""><a href="" class="" id="contact">Contact</a></li>
+                            <ul class="list-unstyled d-flex justify-content-end font-family-walter font-size-21 align-items-center mb-0 my-3">
+                                <li class=""><a href="#portfolio" class="text-prune-dark">Portfolio</a></li>
+                                <li class=""><a href="#competences" class="text-prune-dark">Compétences</a></li>
+                                <li class=""><a href="formation" class="text-prune-dark">Formation</a></li>
+                                <li class=""><a href="experience" class="text-prune-dark">Expérience</a></li>
+                                <li class=""><a href="contact" class="text-prune-dark">Contact</a></li>
                             </ul>
                         </nav>
-                        <label class="burger  text-center d-flex d-md-none" id="burger">MENU
-                            <span>&nbsp;</span>
-                            <span>&nbsp;</span>
-                            <span>&nbsp;</span>
+                        <label class="burger text-center d-flex flex-column d-md-none text-prune-dark font-size-13" id="burger">MENU
+                            <span class="bg-prune-dark">&nbsp;</span>
+                            <span class="bg-prune-dark">&nbsp;</span>
+                            <span class="bg-prune-dark">&nbsp;</span>
                         </label>
-                        <nav class="menu-burger d-flex d-md-none">
-                            <ul class="list-unstyled">
-                                <li class=""><a href="" class="" id="portfolio">Portfolio</a></li>
-                                <li class=""><a href="" class="" id="competences">Compétences</a></li>
-                                <li class=""><a href="" class="" id="formation">Formation</a></li>
-                                <li class=""><a href="" class="" id="experience">Expérience</a></li>
-                                <li class=""><a href="" class="" id="contact">Contact</a></li>
+                        <nav class="menu-burger display-none" id="navigation">
+                            <ul class="list-unstyled font-family-walter font-size-21">
+                                <li class=""><a href="#portfolio" class="">Portfolio</a></li>
+                                <li class=""><a href="#competences" class="">Compétences</a></li>
+                                <li class=""><a href="formation" class="">Formation</a></li>
+                                <li class=""><a href="experience" class="">Expérience</a></li>
+                                <li class=""><a href="contact" class="">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -66,7 +66,7 @@
             <div class="row">
                 <div class="col-12">
                     <h1 class="text-prune-dark">Bienvenue sur mon portfolio !</h1>
-                    <p class="text-prune">Graphiste depuis quelques années, je suis actuellement en formations développeuse web et web mobile. Voici mes travaux réalisés au cours de cette formation. Bonne visite !</p>
+                    <p class="text-prune">Graphiste depuis quelques années, je suis actuellement en formation développeuse web et web mobile. Voici mes travaux réalisés au cours de cette formation. Bonne visite !</p>
                 </div>
 
             </div>
@@ -89,7 +89,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="text-prune-dark">Formation</h1 class="text-prune-dark">
+                    <h1 class="text-prune-dark">Formation</h1>
                 </div>
             </div>
             <div class="row">
@@ -112,15 +112,21 @@
         </div>
     </div>
     <footer>
-        <div class="container-fluid">
-            <div class="container">
-                <div class="row">
+        <div class="container-fluid p-0">
+            <div class="container p-0 m-0 mw-100 w-100">
+                <div class="row m-0 w-100 mw-100 ">
                     <div class="col-6 bg-prune-light">
-                        <!-- Formulaire de contact -->
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <!-- Formulaire de contact -->
                         <h1 class="text-prune-dark">Contact</h1>
                         <form>
 
                         </form>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-6 bg-blue-light">
                         <!-- retrouvez moi -->
@@ -134,15 +140,21 @@
         <div class="container-fluid bg-prune-dark">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 text-center">
-                        <!-- mentions légales, copyright  -->
+                    <div class="col-12 text-center text-blue">
+                        mentions légales, copyright
                     </div>
                 </div>
             </div>
         </div>
 
     </footer>
-
+    <script>
+        let burger  = document.getElementById("burger");
+        let navigation = document.getElementById("navigation");
+        burger.addEventListener("click", function() {
+            navigation.classList.toggle("display-flex");
+        })
+        </script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>   
