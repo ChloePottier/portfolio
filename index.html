@@ -8,7 +8,8 @@
     <meta property="og:title" content="Chloé Pottier graphiste développeuse web" />
     <meta property="og:url" content="http://chloepottierinfographiste.fr" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Walter+Turncoat&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Walter+Turncoat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Chloé Pottier - Portfolio - graphiste développeuse web - jura</title>
 </head>
@@ -16,11 +17,13 @@
     <header>
         <div class="container-fluid">
             <div class="container">
-                <div class="row">
-                    <div class="col"></div>
+                <div class="row navigation">
+                    <div class="col">
+                        <!-- logo cp -->
+                    </div>
                     <div class="col">
                         <nav class="menu-nav d-none d-md-flex">
-                            <ul class="list-unstyled d-flex">
+                            <ul class="list-unstyled d-flex justify-content-end">
                                 <li class=""><a href="" class="" id="portfolio">Portfolio</a></li>
                                 <li class=""><a href="" class="" id="competences">Compétences</a></li>
                                 <li class=""><a href="" class="" id="formation">Formation</a></li>
@@ -28,13 +31,13 @@
                                 <li class=""><a href="" class="" id="contact">Contact</a></li>
                             </ul>
                         </nav>
-                        <label class="burger font-size-14 text-white text-center" id="burger">MENU
+                        <label class="burger  text-center d-flex d-md-none" id="burger">MENU
                             <span>&nbsp;</span>
                             <span>&nbsp;</span>
                             <span>&nbsp;</span>
                         </label>
                         <nav class="menu-burger d-flex d-md-none">
-                            <ul>
+                            <ul class="list-unstyled">
                                 <li class=""><a href="" class="" id="portfolio">Portfolio</a></li>
                                 <li class=""><a href="" class="" id="competences">Compétences</a></li>
                                 <li class=""><a href="" class="" id="formation">Formation</a></li>
@@ -43,29 +46,103 @@
                             </ul>
                         </nav>
                     </div>
-                </div>
+                </div> 
+            </div>
+        </div>
+        <div class="container-fluid bg-blue-light" style="height:324px;">
+            <div class="container">
                 <div class="row">
                     <!-- bannière + logo -->
-                    <div class="col-12"></div>
+                    <div class="col-12">
+
+                    </div>
                 </div>
             </div>
         </div>
     </header>
     <!-- Portfolio -->
+    <div class="container-fluid" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-prune-dark">Bienvenue sur mon portfolio !</h1>
+                    <p class="text-prune">Graphiste depuis quelques années, je suis actuellement en formations développeuse web et web mobile. Voici mes travaux réalisés au cours de cette formation. Bonne visite !</p>
+                </div>
+
+            </div>
+        </div>
+        <!-- Miniatures -->
+
+    </div>
+    <!--Compétences -->
+    <div class="container-fluid bg-blue" id="competences">
+        <div class="container">
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4"></div>
+                <div class="col-4"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Formation -->
+    <div class="container-fluid" id="formation">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-prune-dark">Formation</h1 class="text-prune-dark">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Expérience -->
+    <div class="container-fluid" id="experience">
+        <div class="container">
+            <div class="row">
+
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col-12"><h1 class="text-prune-dark">Expérience</h1 class="text-prune-dark"></div>
+            </div>
+        </div>
+    </div>
     <footer>
         <div class="container-fluid">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
-                        <h1>Bienvenue sur mon portfolio !</h1>
-                        <p>Graphiste depuis quelques années, je suis actuellement en formations développeuse web et web mobile. Voici mes travaux réalisés au cours de cette formation. Bonne visite !</p>
-                    </div>
+                    <div class="col-6 bg-prune-light">
+                        <!-- Formulaire de contact -->
+                        <h1 class="text-prune-dark">Contact</h1>
+                        <form>
 
+                        </form>
+                    </div>
+                    <div class="col-6 bg-blue-light">
+                        <!-- retrouvez moi -->
+                        <p class="font-family-walter text-prune-dark font-size-31 line-height text-center">Retrouvez-moi<br />aussi sur :</p>
+                        <div class="w-66px github"></div>
+                        <div class="w-66px linkedin"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-prune-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <!-- mentions légales, copyright  -->
+                    </div>
                 </div>
             </div>
         </div>
 
     </footer>
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>   
