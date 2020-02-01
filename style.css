@@ -5,3 +5,38 @@
     font-family: 'Walter Turncoat', cursive;
 
  */
+ body{
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+ }
+
+/* Colors */
+.text-prune-dark{
+    color: rgb(91,19,60);
+}
+.text-prune{
+    color: rgb(145,33,92);
+}
+.text-blue{
+    color: rgba(97,190,223);
+}
+.bg-blue{
+    background-color: rgba(97,190,223);
+}
+.bg-blue-light{
+    background-color: rgb(162,218,234);
+}
+.bg-prune-light{
+    background-color: rgb(163,116,148);
+}
+.bg-light-extralight{
+    background-color: rgb(163,116,148);
+}
+.bg-white-op40{
+    background-color: rgba(255,255,255,.4);
+}
+
+/* Font size */
+h1{
+    font-size: 2.25rem;
+    font-family: 'Walter Turncoat', cursive;
+}
