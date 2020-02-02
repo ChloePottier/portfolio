@@ -1,7 +1,9 @@
 body{
     font-family: 'Roboto',Arial, Helvetica, sans-serif;
  }
-
+ .pt-9{
+    padding-top: 9rem;
+}
 /* Colors */
 .text-prune-dark{
     color: rgb(91,19,60);
@@ -10,7 +12,7 @@ body{
     color: rgb(145,33,92);
 }
 .text-blue{
-    color: rgba(97,190,223);
+    color: rgb(97,190,223);
 }
 .bg-blue{
     background-color: rgba(97,190,223);
@@ -23,6 +25,9 @@ body{
 }
 .bg-prune-dark{
     background-color: rgb(91,19,60);
+}
+.bg-prune-dark-op70{
+    background-color: rgba(91,19,60,.8);
 }
 .bg-white-op40{
     background-color: rgba(255,255,255,.4);
@@ -51,7 +56,7 @@ h1,.font-size-36{
     line-height: 1.8rem;
 }
 /* Menus */
-nav ul li a{
+nav ul{
     scroll-behavior : smooth ; 
     /* défilement */
 }
@@ -64,6 +69,16 @@ nav ul li a{
 }
 #navigation{
     position: absolute;
+    z-index: 1500;
+    width: 200vw;
+    height: 100vh;
+    right: -60vw;
+}
+#navigation ul li a{
+    color: #fff;
+}
+#navigation ul li a:hover{
+    color: rgb(97,190,223);
 }
 .burger {
     margin: 0;
@@ -84,11 +99,12 @@ nav ul li a{
     width: 35px;
     height: 4px;
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
 }
 .burger span:last-child {
     margin-bottom:0px;
 }
+
 /* Portfolio */
 .download-cv{
     display: block;
@@ -99,6 +115,23 @@ nav ul li a{
 .download-cv:hover{
     background-image: url(img/logo-cv-hover.svg);
 }
+.competences-graphisme{
+    background: url(img/competences-graphisme.svg) no-repeat center;
+    background-size: contain;
+    height: 290px;
+}
+.competences-web{
+    background: url(img/competences-web.svg) no-repeat center;
+    background-size: contain;
+    height: 290px;
+}
+.competences-cms{
+    background: url(img/competences-cms.svg) no-repeat center;
+    background-size: contain;
+
+    height: 290px;
+}
+
 /* Formation */
 #formation{
     border-bottom: solid 3px #58133C;
