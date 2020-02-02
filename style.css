@@ -107,6 +107,18 @@ nav ul li a{
 .bg-contact{
     background: linear-gradient(0.25turn, rgb(163,116,148) 50%, rgb(162,218,234) 50%);
 }
+input{
+    height: 40px;
+}
+#submit_button{
+    width: 237px;
+    height: 40px;
+    letter-spacing: .1rem;
+}
+#submit_button:hover{
+    background-color: rgba(97,190,223);
+    color: #58133C;
+}
 .w-66px{
     width: 66px;
     height: 66px;
