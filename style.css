@@ -71,7 +71,6 @@ nav ul{
     position: absolute;
     z-index: 1500;
     width: 200vw;
-    height: 100vh;
     right: -60vw;
 }
 #navigation ul li a{
@@ -131,7 +130,6 @@ nav ul{
 
     height: 290px;
 }
-
 /* Formation */
 #formation{
     border-bottom: solid 3px #58133C;
@@ -167,4 +165,9 @@ input{
 }
 .linkedin:hover{
     background-image: url(img/logo-lindekin-hover.svg);
+}
+@media (max-width: 767px){
+    .bg-contact{
+        background: linear-gradient( rgb(163,116,148) 56%, rgb(162,218,234) 44%);
+    }
 }
