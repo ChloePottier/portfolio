@@ -73,6 +73,9 @@ h1,.font-size-36{
     line-height: 1.8rem;
 }
 /* Menus */
+header{
+    overflow: hidden;
+}
 nav ul{
     scroll-behavior : smooth ; 
     /* défilement */
@@ -88,6 +91,7 @@ nav ul{
     position: absolute;
     z-index: 1500;
     width: 200vw;
+    height: 110vh;
     right: -60vw;
 }
 #navigation ul li a{
@@ -123,6 +127,11 @@ nav ul{
     vertical-align: middle;
 }
 /* Portfolio */
+.h-250{height:250px;}
+.snow-agency{
+    background: url(img/snow-agency.jpg) no-repeat center;
+    background-size: cover;
+}
 .download-cv{
     display: block;
     width: 50.76px;
@@ -220,4 +229,7 @@ input{
     .bg-contact{
         background: linear-gradient( rgb(163,116,148) 56%, rgb(162,218,234) 44%);
     }
+}
+@media (max-width: 576px){
+    
 }
