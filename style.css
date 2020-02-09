@@ -282,36 +282,27 @@ input{
     .card {
         border: none!important;
         position: relative;
-        perspective: 150rem;
-        -moz-perspective: 150rem;
       }
+      .card2 .bg-prune-dark{background-color: rgba(0, 0, 0, 0.7);}
       .card__side {
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-        -webkit-transition: all .8s ease;
-        transition: all .8s ease;
-        position: relative;
-        top: 0;
+        transition: none;
+        position: absolute;
+        width: 95%;
+        bottom: 0;
+        top:auto;
         left: 0;
-        width: 100%;
         -webkit-backface-visibility: visible;
         backface-visibility: visible;
         border-radius: 0px;
-        -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-    
+        -webkit-box-shadow: none;
+        box-shadow: none;
       }
       .card__side--front {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        height: 100%;
       }
       
       .card__side--back {
-        justify-content: center;
-        align-items: center;
+        height: auto;
         transform: none;
       }
       
@@ -324,5 +315,5 @@ input{
       }
 }
 @media (max-width: 576px){
-    
+    .card__side {width: 100%;}
 }
