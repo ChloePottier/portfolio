@@ -136,7 +136,7 @@ nav ul{
 .chancel{background: url(img/chancel-min.jpg)  no-repeat center;}
 .modularite{background: url(img/modularite-min.jpg)  no-repeat center;}
 .flappy-mario{background: url(img/flappy-mario-min.jpg)  no-repeat center;}
-.card2 {
+.card {
     border: none!important;
     position: relative;
     perspective: 150rem;
@@ -276,6 +276,8 @@ input{
     .bg-contact{
         background: linear-gradient( rgb(163,116,148) 56%, rgb(162,218,234) 44%);
     }
+    #contact .w-75{width: 100%!important;}
+    #submit_button{width: 100%;}
     .card {
         border: none!important;
         position: relative;
@@ -313,5 +315,6 @@ input{
     #experience .align-items-end,#formation .align-items-end{align-items: start!important;}
     #experience .justify-content-end{ justify-content: start!important;}
     .pb-6{padding-bottom: 0;}
-    /* .border-bottom{border-bottom: solid 1px rgba(255,255,255,.4)!important;} */
+    .border-bottom{border-bottom: solid 1px rgb(207, 207, 207)!important;}
+    #experience{border-bottom: none;}
 }
