@@ -92,7 +92,7 @@ nav ul{
     z-index: 1500;
     width: 200vw;
     height: 110vh;
-    right: -60vw;
+    right: -50%;
 }
 #navigation ul li a{
     color: #fff;
