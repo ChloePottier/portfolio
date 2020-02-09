@@ -100,11 +100,12 @@ nav ul{
 #navigation ul li a:hover{
     color: rgb(97,190,223);
 }
+#navigation ul{padding-right: 15%;}
 .burger {
     margin: 0;
     position: absolute;
     top: 0;
-    right : 0;
+    right : 20%;
     z-index: 2000;
     cursor: pointer;
 }
