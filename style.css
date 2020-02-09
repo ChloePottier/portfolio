@@ -130,17 +130,13 @@ nav ul{
 /* Portfolio */
 .h-250{height:250px;}
 .border{border: solid 1px #b2b2b2 !important;}
-.snow-agency{
-    background: url(img/snow-agency-min.jpg) no-repeat center;
-}
-.blueasy{
-    background: url(img/blueasy-min.jpg) no-repeat center;
-}
+.snow-agency{background: url(img/snow-agency-min.jpg) no-repeat center;}
+.blueasy{background: url(img/blueasy-min.jpg) no-repeat center;}
 .vin-fr{background: url(img/vin-fr-min.jpg)  no-repeat center;}
 .chancel{background: url(img/chancel-min.jpg)  no-repeat center;}
 .modularite{background: url(img/modularite-min.jpg)  no-repeat center;}
 .flappy-mario{background: url(img/flappy-mario-min.jpg)  no-repeat center;}
-.card {
+.card2 {
     border: none!important;
     position: relative;
     perspective: 150rem;
@@ -205,13 +201,13 @@ nav ul{
 .competences-cms{
     background: url(img/competences-cms.svg) no-repeat center;
     background-size: contain;
-
     height: 290px;
 }
 /* experience */
 #experience{
     border-bottom: solid 3px #58133C;
 }
+.border-bottom{border: none!important;}
 .jeager{
     background: url(img/flower-little.svg) no-repeat;
     background-position: bottom left 40%;
@@ -298,15 +294,11 @@ input{
         -webkit-box-shadow: none;
         box-shadow: none;
       }
-      .card__side--front {
-        height: 100%;
-      }
-      
+      .card__side--front {height: 100%;}
       .card__side--back {
         height: auto;
         transform: none;
       }
-      
       .card:hover .card__side--front {
         transform: none;
       }
@@ -315,6 +307,11 @@ input{
         transform: none;
       }
 }
-@media (max-width: 576px){
+@media (max-width: 575px){
     .card__side {width: 100%;}
+    .bac-stt,.licence,.dgd-formation,.acs-formation,.jeager,.modularite1,.modularite2{background:none;}
+    #experience .align-items-end,#formation .align-items-end{align-items: start!important;}
+    #experience .justify-content-end{ justify-content: start!important;}
+    .pb-6{padding-bottom: 0;}
+    /* .border-bottom{border-bottom: solid 1px rgba(255,255,255,.4)!important;} */
 }
