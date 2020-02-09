@@ -39,7 +39,7 @@ body{
     height: 100vh;
     background: url(img/graphiste5.jpg) center top no-repeat;
 }
-.bg-cover{background-size: cover;}
+.bg-cover{background-size: cover !important;}
 
 /* Font */
 @font-face {
@@ -128,7 +128,7 @@ nav ul{
 }
 /* Portfolio */
 .h-250{height:250px;}
-
+.border{border: solid 1px #b2b2b2 !important;}
 .snow-agency{
     background: url(img/snow-agency-min.jpg) no-repeat center;
 }
@@ -279,6 +279,49 @@ input{
     .bg-contact{
         background: linear-gradient( rgb(163,116,148) 56%, rgb(162,218,234) 44%);
     }
+    .card {
+        border: none!important;
+        position: relative;
+        perspective: 150rem;
+        -moz-perspective: 150rem;
+      }
+      .card__side {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        -webkit-transition: all .8s ease;
+        transition: all .8s ease;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        -webkit-backface-visibility: visible;
+        backface-visibility: visible;
+        border-radius: 0px;
+        -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    
+      }
+      .card__side--front {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .card__side--back {
+        justify-content: center;
+        align-items: center;
+        transform: none;
+      }
+      
+      .card:hover .card__side--front {
+        transform: none;
+      }
+      
+      .card:hover .card__side--back {
+        transform: none;
+      }
 }
 @media (max-width: 576px){
     
