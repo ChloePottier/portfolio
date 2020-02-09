@@ -128,6 +128,49 @@ nav ul{
 }
 /* Portfolio */
 .h-250{height:250px;}
+.card {
+    border: none!important;
+    position: relative;
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+  }
+  .card__side {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    -webkit-transition: all .8s ease;
+    transition: all .8s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+
+  }
+  .card__side--front {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card__side--back {
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(-180deg);
+  }
+  
+  .card:hover .card__side--front {
+    transform: rotateY(180deg);
+  }
+  
+  .card:hover .card__side--back {
+    transform: rotateY(0);
+  }
 .snow-agency{
     background: url(img/snow-agency-min.jpg) no-repeat center;
 }
