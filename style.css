@@ -128,6 +128,17 @@ nav ul{
 }
 /* Portfolio */
 .h-250{height:250px;}
+
+.snow-agency{
+    background: url(img/snow-agency-min.jpg) no-repeat center;
+}
+.blueasy{
+    background: url(img/blueasy-min.jpg) no-repeat center;
+}
+.vin-fr{background: url(img/vin-fr-min.jpg)  no-repeat center;}
+.chancel{background: url(img/chancel-min.jpg)  no-repeat center;}
+.modularite{background: url(img/modularite-min.jpg)  no-repeat center;}
+.flappy-mario{background: url(img/flappy-mario-min.jpg)  no-repeat center;}
 .card {
     border: none!important;
     position: relative;
@@ -171,16 +182,6 @@ nav ul{
   .card:hover .card__side--back {
     transform: rotateY(0);
   }
-.snow-agency{
-    background: url(img/snow-agency-min.jpg) no-repeat center;
-}
-.blueasy{
-    background: url(img/blueasy-min.jpg) no-repeat center;
-}
-.vin-fr{background: url(img/vin-fr-min.jpg)  no-repeat center;}
-.chancel{background: url(img/chancel-min.jpg)  no-repeat center;}
-.modularite{background: url(img/modularite-min.jpg)  no-repeat center;}
-.flappy-mario{background: url(img/flappy-mario-min.jpg)  no-repeat center;}
 .download-cv{
     display: block;
     width: 50.76px;
