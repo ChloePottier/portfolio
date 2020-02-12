@@ -38,10 +38,7 @@
                         $subject = "Formulaire de contact";
                         $mailheaders = "From: Portfolio \n";
                         echo $msg;
-                        // echo "Merci pour votre message, je vous recontacte au plus vite.";
-                        // } else {
-                        //     echo "Echec de l'envoie de votre message";
-                        // };
+
 
                     if (empty($nom) OR empty($email) OR empty($message)){ //OR empty($captcha){
                             echo '<p class="text-center text-white font-weight-600 font-size-24 mb-5 p-2">Veuillez remplir tous les champs</p>';
@@ -53,10 +50,10 @@
                             echo'<p class="text-center text-white font-weight-600 font-size-24 mb-5 p-2">Merci Mr ou Mme '.$name.', votre mail a bien été envoyé !</p>';
                         }
                         else echo '<p class="text-center text-white font-weight-600 font-size-24 mb-5 p-2">L\'envoi a échoué, merci de renouveller l\'opération !</p>';
-                    }
+                    };
                     function valid_email($str) {
                         return (!preg_match("/^([a-z0-9\+_\-]+)(\.[a-z0-9\+_\-]+)*@([a-z0-9\-]+\.)+[a-z]{2,6}$/ix", $str)) ? FALSE : TRUE;
-                        }
+                        };
                     ?>
                     <a href="index.php" class="btn-retour">Portfolio </a>
     </body>

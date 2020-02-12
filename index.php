@@ -308,26 +308,8 @@
                                     type="submit">ENVOYER</button>
                             </div>
                         </form>
-                        <?php
-                        // if(!empty($_POST['name']) && $_POST['email'] && $_POST['message']){
-                        // $verif='#^[\w.-]+@[\w.-]+\.[a-zA-Z]{2,5}$#'; 
-                        // $name = htmlentities($_POST['name']);
-                        // $email = htmlentities($_POST['email']);
-                        // $message = htmlentities($_POST['message']);
-                        // // $captcha = $_POST['captcha'];
-                        // $msg .= "Nom:\t$name\n";
-                        // $msg .= "E-mail:\t$email\n";
-                        // $msg .= "Message:\t$message\n\n";
-                        // // $captcha = $_POST['g-recaptcha-response']; 
-                        // $destinataire = "chloe.pottier@free.fr";
-                        // $subject = "Formulaire de contact";
-                        // $mailheaders = "From: blueasy \n";
-                        // echo "";
-                        // echo "Merci pour votre message, je vous recontacte au plus vite.";
-                        // } else {
-                        //     echo "Echec de l'envoie de votre message";
-                        // };
-                        ?>
+                       
+                        
                     </div>
                     <div class="col-12 col-md-6 d-flex justify-content-center flex-column pt-2 pt-md-0">
                         <!-- retrouvez moi -->
