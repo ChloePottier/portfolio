@@ -11,6 +11,7 @@ body{
 .text-prune-dark{
     color: rgb(91,19,60);
 }
+.text-white{ color: #fff;}
 .text-prune{
     color: rgb(145,33,92);
 }
@@ -29,6 +30,10 @@ body{
 .bg-prune-dark{
     background-color: rgb(91,19,60);
 }
+.bg-prune-dark-menu{
+    background-color: rgb(91,19,60);
+}
+.bg-white{background-color: #fff;}
 .bg-prune-dark-op70{
     background-color: rgba(91,19,60,.8);
 }
@@ -88,7 +93,7 @@ nav ul{
     text-decoration: none;
 }
 #navigation{
-    position: absolute;
+    position: fixed;
     z-index: 1500;
     width: 200vw;
     height: 110vh;
@@ -100,7 +105,7 @@ nav ul{
 #navigation ul li a:hover{
     color: rgb(97,190,223);
 }
-#navigation ul{padding-right: 15%;}
+#navigation ul{padding-right: 35%;}
 .burger {
     margin: 0;
     position: absolute;
@@ -282,7 +287,7 @@ input{
         border: none!important;
         position: relative;
       }
-      .card2 .bg-prune-dark{background-color: rgba(0, 0, 0, 0.7);}
+      .card .bg-prune-dark{background-color: rgba(0, 0, 0, 0.7);}
       .card__side {
         transition: none;
         position: absolute;
