@@ -39,9 +39,9 @@
                         </nav>
                         <label class="burger text-center d-flex flex-column d-md-none text-prune-dark font-size-13 position-fixed"
                             id="burger">MENU
-                            <span class="bg-prune-dark">&nbsp;</span>
-                            <span class="bg-prune-dark">&nbsp;</span>
-                            <span class="bg-prune-dark">&nbsp;</span>
+                            <span class="bg-prune-dark-menu" id="burger1">&nbsp;</span>
+                            <span class="bg-prune-dark-menu" id="burger2">&nbsp;</span>
+                            <span class="bg-prune-dark-menu" id="burger3">&nbsp;</span>
                         </label>
                         <nav class="menu-burger display-none bg-prune-dark-op70 px-auto" id="navigation">
                             <ul class="list-unstyled font-family-bebas font-size-31 text-right pt-5">
@@ -100,14 +100,14 @@
                     </div>
                 </a>
                 <!-- miniature2 -->
-                <a href="../snowagency" target="_blank" class="col-12 col-sm-6 col-md-4 card h-250 mb-3 mb-md-0">
+                <a href="../blueasy" target="_blank" class="col-12 col-sm-6 col-md-4 card h-250 mb-3 mb-md-0">
                     <div class="card__side card__side--front blueasy h-250 bg-cover"></div>
                     <div class="card__side card__side--back card__side--back-1 bg-prune-dark">
                         <div class="card__cta">
                             <div class="page">
                                 <div class="page__container">
                                     <p class="text-white text-decoration-none py-1 py-md-0 m-0" >Exercice d'intégration.<br />
-                                        Langages : HTML / CSS. <br/>
+                                        Langages : HTML / CSS. <br/>menu burger Javascript <br /> Formulaire PHP et Recaptcha
                                     </p>
                                 </div>
                             </div>
@@ -339,9 +339,16 @@
     <script>
         let burger = document.getElementById("burger");
         let navigation = document.getElementById("navigation");
-        burger.addEventListener("click", function () {
-            navigation.classList.toggle("display-flex");
-        })
+        let burger1 = document.getElementById("burger1");
+        let burger2 = document.getElementById("burger2");
+        let burger3 = document.getElementById("burger3");
+            burger.addEventListener("click", function () {
+                navigation.classList.toggle("display-flex");
+                burger.classList.toggle("text-white");
+                burger1.classList.toggle("bg-white");
+                burger2.classList.toggle("bg-white");
+                burger3.classList.toggle("bg-white");
+        });
     </script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
