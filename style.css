@@ -253,11 +253,11 @@ nav ul{
 input{
     height: 40px;
 }
-#submit_button{
+#submit_button,.btn-retour{
     width: 237px;
     height: 40px;
 }
-#submit_button:hover{
+#submit_button:hover,.btn-retour{
     background-color: rgba(97,190,223);
     color: #58133C;
 }

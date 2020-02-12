@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
         content="Chloé Pottier, graphiste et apprenante développeur web. Actuellement en formation chez Access Code School, à Lons-Le-Saunier, Jura (39)." />
-    <meta name="keywords" content="Chloé Pottier portfolio graphiste développeuse web infographiste Saint-Amour Jura" />
-    <meta property="og:title" content="Chloé Pottier graphiste développeuse web" />
+    <meta name="keywords" content="Chloé Pottier portfolio graphiste développeur web infographiste Saint-Amour Jura" />
+    <meta property="og:title" content="Chloé Pottier graphiste développeur web" />
     <meta property="og:url" content="http://chloepottierinfographiste.fr" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -277,25 +277,25 @@
                 <div class="row py-5">
                     <div class="col-12 col-md-6">
                         <h1 class="text-prune-dark">Contact</h1>
-                        <form>
+                        <form action="traitement.php" method="POST">
                             <div class="d-flex flex-column w-75 font-size-18">
-                                <input type="text" name="nom"
+                                <input type="text" name="nom" id="nom"
                                     class="bg-white-op40 border-0 text-prune-dark  font-family-bebas pl-3 mb-3"
                                     placeholder="Nom *" required />
-                                <input type="text" name="prenom"
+                                <input type="text" name="prenom" id="prenom"
                                     class="bg-white-op40 border-0 text-prune-dark  font-family-bebas  pl-3 mb-3"
                                     placeholder="Prénom *" required />
-                                <input type="text" name="societe"
+                                <input type="text" name="societe" id="societe"
                                     class="bg-white-op40 border-0 text-prune-dark font-family-bebas  pl-3 mb-3"
                                     placeholder="Société" />
-                                <input type="tel" name="telephone"
+                                <input type="text" name="telephone" id="tel"
                                     class="bg-white-op40 border-0 text-prune-dark  font-family-bebas  pl-3 mb-3"
                                     placeholder="Téléphone" />
-                                <input type="email" name="email"
+                                <input type="email" name="email" id="email"
                                     pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]{2,8}$"
                                     class="bg-white-op40 border-0 text-prune-dark  font-family-bebas pl-3 mb-3"
                                     placeholder="E-mail *" required />
-                                <textarea name="message" id="message"
+                                <textarea name="message" id="message" type="text" 
                                     class="bg-white-op40 border-0 text-prune-dark  font-family-bebas pl-3 mb-3"
                                     placeholder="Votre message *" cols="30" rows="10" type="text" required></textarea>
                             </div>
@@ -308,6 +308,26 @@
                                     type="submit">ENVOYER</button>
                             </div>
                         </form>
+                        <?php
+                        // if(!empty($_POST['name']) && $_POST['email'] && $_POST['message']){
+                        // $verif='#^[\w.-]+@[\w.-]+\.[a-zA-Z]{2,5}$#'; 
+                        // $name = htmlentities($_POST['name']);
+                        // $email = htmlentities($_POST['email']);
+                        // $message = htmlentities($_POST['message']);
+                        // // $captcha = $_POST['captcha'];
+                        // $msg .= "Nom:\t$name\n";
+                        // $msg .= "E-mail:\t$email\n";
+                        // $msg .= "Message:\t$message\n\n";
+                        // // $captcha = $_POST['g-recaptcha-response']; 
+                        // $destinataire = "chloe.pottier@free.fr";
+                        // $subject = "Formulaire de contact";
+                        // $mailheaders = "From: blueasy \n";
+                        // echo "";
+                        // echo "Merci pour votre message, je vous recontacte au plus vite.";
+                        // } else {
+                        //     echo "Echec de l'envoie de votre message";
+                        // };
+                        ?>
                     </div>
                     <div class="col-12 col-md-6 d-flex justify-content-center flex-column pt-2 pt-md-0">
                         <!-- retrouvez moi -->
