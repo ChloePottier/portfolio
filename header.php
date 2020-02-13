@@ -3,7 +3,7 @@
             <div class="container">
                 <div class="row nav-top">
                     <div class="col d-flex align-items-center">
-                        <img src="img/CP-logo.svg" alt="Logo Chloé Pottier" class="" />
+                        <a class="logo-CP" href="index.php"></a>
                     </div>
                     <div class="col">
                         <nav class="menu-nav d-none d-md-flex">

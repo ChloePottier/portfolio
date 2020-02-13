@@ -47,6 +47,7 @@
             
             if($envoi=mail($destinataire, $subject, $msg, $mailheaders)) {
                 echo'<p class="envoi bg-prune-dark-menu position-absolute text-center text-white font-weight-600 font-size-24 mb-5 p-2">Merci '.$prenom.' '.$nom.', votre mail a bien été envoyé !</p>';
+                header("refresh:5;url=http://chloepottierinfographiste.fr/index.php");
             }
             else echo '<p class="text-center text-white font-weight-600 font-size-24 mb-5 p-2">L\'envoi a échoué, merci de renouveller l\'opération !</p>';
         };
@@ -54,8 +55,5 @@
             return (!preg_match("/^([a-z0-9\+_\-]+)(\.[a-z0-9\+_\-]+)*@([a-z0-9\-]+\.)+[a-z]{2,6}$/ix", $str)) ? FALSE : TRUE;
             };
         ?>
-        <div class="btn-portfolio position-absolute">
-            <a href="index.php" class="btn-retour">Portfolio </a>
-        </div>
     </body>
 </html>
