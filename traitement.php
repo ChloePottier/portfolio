@@ -22,34 +22,37 @@
     include('header.php');
     $verif='#^[\w.-]+@[\w.-]+\.[a-zA-Z]{2,5}$#'; 
     $nom = htmlentities($_POST['nom']);
-    $prenom = htmlentities($_POST['prenom']);
+    // $prenom = htmlentities($_POST['prenom']);
+
+    $prenom = $_POST['prenom'];
     $societe = htmlentities($_POST['societe']);
     $tel = htmlentities($_POST['telephone']);
     $email = htmlentities($_POST['email']);
     $message = htmlentities($_POST['message']);
-    // $captcha = $_POST['captcha'];
+    $captcha = $_POST['captcha'];
     $msg .= "Nom :\t$nom\n";
     $msg .= "Prenom :\t$prenom\n";
     $msg .= "Société :\t$societe\n";
     $msg .= "Tel :\t$tel\n";
     $msg .= "E-mail:\t$email\n";
     $msg .= "Message:\t$message\n\n";
-    // $captcha = $_POST['g-recaptcha-response']; 
+    $captcha = $_POST['g-recaptcha-response']; 
     $destinataire = "chloe.pottier@free.fr";
     $subject = "Formulaire de contact";
     $mailheaders = "From: Portfolio \n";
 
-        if (empty($nom) OR empty($email) OR empty($message)){ //OR empty($captcha){
-                echo '<p class="text-center text-white font-weight-600 font-size-24 mb-5 p-2">Veuillez remplir tous les champs</p>';
-        } else if(valid_email($email) == false){
-            echo '<p class="text-center text-white font-weight-600 font-size-24 mb-5 p-2">Adresse e-mail invalide</p>';
+        if (empty($nom) OR empty($email) OR empty($message)){
+                echo '<p class="envoi bg-prune-dark-menu position-absolute text-center text-white font-weight-600 font-size-24 mb-5 p-2">Veuillez remplir tous les champs</p>';
+        }else if(empty($captcha)){
+            echo '<p class="envoi bg-prune-dark-menu position-absolute text-center text-white font-weight-600 font-size-24 mb-5 p-2">Merci de valider le captcha</p>';
+        }else if(valid_email($email) == false){
+            echo '<p class="envoi bg-prune-dark-menu position-absolute text-center text-white font-weight-600 font-size-24 mb-5 p-2">Adresse e-mail invalide</p>';
         } else{
-            
             if($envoi=mail($destinataire, $subject, $msg, $mailheaders)) {
                 echo'<p class="envoi bg-prune-dark-menu position-absolute text-center text-white font-weight-600 font-size-24 mb-5 p-2">Merci '.$prenom.' '.$nom.', votre mail a bien été envoyé !</p>';
                 header("refresh:5;url=http://chloepottierinfographiste.fr/index.php");
             }
-            else echo '<p class="text-center text-white font-weight-600 font-size-24 mb-5 p-2">L\'envoi a échoué, merci de renouveller l\'opération !</p>';
+            else echo'<p class="envoi bg-prune-dark-menu position-absolute text-center text-white font-weight-600 font-size-24 mb-5 p-2">L\'envoi a échoué, merci de renouveller l\'opération !</p>';
         };
         function valid_email($str) {
             return (!preg_match("/^([a-z0-9\+_\-]+)(\.[a-z0-9\+_\-]+)*@([a-z0-9\-]+\.)+[a-z]{2,6}$/ix", $str)) ? FALSE : TRUE;
