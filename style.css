@@ -250,6 +250,9 @@ nav ul{
 .bg-contact{
     background: linear-gradient(0.25turn, rgb(163,116,148) 50%, rgb(162,218,234) 50%);
 }
+.btn-portfolio{
+    top:0;
+}
 input{
     height: 40px;
 }
@@ -261,6 +264,8 @@ input{
     background-color: rgba(97,190,223);
     color: #58133C;
 }
+.envoi{
+    top:50px;}
 .w-66px{
     width: 66px;
     height: 66px;
