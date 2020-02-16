@@ -24,12 +24,12 @@
                         </label>
                         <nav class="menu-burger display-none bg-prune-dark-op70 px-auto" id="navigation">
                             <ul class="list-unstyled font-family-bebas font-size-31 text-right pt-5">
-                                <li class=""><a href="#portfolio" class="pb-2 text-decoration-none" id="portfolio1">Portfolio</a></li>
+                                <li class=""><a href="index.php#portfolio" class="pb-2 text-decoration-none" id="portfolio1">Portfolio</a></li>
                                 <li class=""><a href="#competences" class="pb-2 text-decoration-none">Compétences</a>
                                 </li>
-                                <li class=""><a href="#formation" class="pb-2 text-decoration-none">Formation</a></li>
-                                <li class=""><a href="#experience" class="pb-2 text-decoration-none">Expérience</a></li>
-                                <li class=""><a href="#contact" class="pb-2 text-decoration-none">Contact</a></li>
+                                <li class=""><a href="index.php#formation" class="pb-2 text-decoration-none">Formation</a></li>
+                                <li class=""><a href="index.php#experience" class="pb-2 text-decoration-none">Expérience</a></li>
+                                <li class=""><a href="index.php#contact" class="pb-2 text-decoration-none">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -47,3 +47,20 @@
             </div>
         </div>
     </header>
+    <script>
+        let burger = document.getElementById("burger");
+        let navigation = document.getElementById("navigation");
+        let burger1 = document.getElementById("burger1");
+        let burger2 = document.getElementById("burger2");
+        let burger3 = document.getElementById("burger3");
+            burger.addEventListener("click", function () {
+                navigation.classList.toggle("display-flex");
+                burger.classList.toggle("text-white");
+                burger1.classList.toggle("bg-white");
+                burger1.classList.toggle("isopen-burger1");
+                burger2.classList.toggle("bg-white");
+                burger2.classList.toggle("isopen-burger2");
+                burger3.classList.toggle("bg-white");
+                burger3.classList.toggle("isopen-burger3");
+        });
+    </script>
