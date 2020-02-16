@@ -32,7 +32,7 @@
                 </div>
                 <div class="col d-flex justify-content-end pt-5">
                     <!--LIEN CV-->
-                    <a href="" class="download-cv "></a>
+                    <a href="doc/Chloe-Pottier-CV.pdf" download="Télécharger le CV de Chloé Pottier" class="download-cv " title="Télécharger le CV"></a>
                 </div>
             </div>
             <div class="row no-gutters">
