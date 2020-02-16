@@ -253,6 +253,7 @@ nav ul{
 /* Contact */
 .bg-contact{
     background: linear-gradient(0.25turn, rgb(163,116,148) 50%, rgb(162,218,234) 50%);
+    border-top: solid 2px #58133C
 }
 .btn-portfolio{
     top:0;
@@ -368,5 +369,5 @@ input{
     .pb-6{padding-bottom: 0;}
     .pb-sm-6{padding-bottom: 4rem;}
     .border-bottom{border-bottom: solid 1px rgb(207, 207, 207)!important;}
-    #experience{border-bottom: none;}
+    /* #experience{border-bottom: none;} */
 }
