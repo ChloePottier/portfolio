@@ -152,7 +152,7 @@
         </div>
     </div>
     <!-- Expérience -->
-    <div class="container-fluid" id="experience">
+    <div class="container-fluid pb-5 pb-sm-0" id="experience">
         <div class="container">
             <div class="row py-5">
                 <div class="col-12">
@@ -229,7 +229,7 @@
             <div class="container">
                 <div class="row py-5">
                     <div class="col-12 col-md-6">
-                        <h1 class="text-prune-dark pt-5">Contact</h1>
+                        <h1 class="text-prune-dark pt-0 pt-sm-5">Contact</h1>
                         <form action="traitement.php" method="POST" class="pb-sm-6">
                             <div class="d-flex flex-column w-75 font-size-18">
                                 <input type="text" name="nom" id="nom"
