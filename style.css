@@ -366,6 +366,7 @@ input{
     #experience .align-items-end,#formation .align-items-end{align-items: start!important;}
     #experience .justify-content-end{ justify-content: start!important;}
     .pb-6{padding-bottom: 0;}
+    .pb-sm-6{padding-bottom: 4rem;}
     .border-bottom{border-bottom: solid 1px rgb(207, 207, 207)!important;}
     #experience{border-bottom: none;}
 }
