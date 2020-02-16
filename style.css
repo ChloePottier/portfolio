@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    font-size: 100%;
  }
  .pt-9{
     padding-top: 9rem;
@@ -42,7 +43,7 @@ body{
 }
 .bg-graphiste{
     height: 100vh;
-    background: url(img/graphiste5.jpg) center top no-repeat;
+    background: url(img/graphiste.jpg) left top no-repeat;
 }
 .bg-cover{background-size: cover !important;}
 
@@ -188,8 +189,8 @@ nav ul{
   }
 .download-cv{
     display: block;
-    width: 50.76px;
-    height: 50px;
+    width: 3.1725rem;
+    height: 3.125rem;
     background-image: url(img/logo-cv.svg);
 }
 .download-cv:hover{
@@ -286,6 +287,10 @@ input{
     background-image: url(img/logo-lindekin-hover.svg);
 }
 @media (max-width: 767px){
+    .bg-graphiste{
+        height: 100vh;
+        background: url(img/graphiste-h1024.jpg) left top no-repeat;
+    }
     .bg-contact{
         background: linear-gradient( rgb(163,116,148) 56%, rgb(162,218,234) 44%);
     }
@@ -323,6 +328,10 @@ input{
       }
 }
 @media (max-width: 575px){
+    .bg-graphiste{
+        height: 100vh;
+        background: url(img/graphiste-h768.jpg) left top no-repeat;
+    }
     .card__side {width: 100%;}
     .bac-stt,.licence,.dgd-formation,.acs-formation,.jeager,.modularite1,.modularite2{background:none;}
     #experience .align-items-end,#formation .align-items-end{align-items: start!important;}

@@ -253,7 +253,7 @@
                             </div>
                             <div class="d-flex flex-column pb-5 pb-md-0">
                                 <div>
-                                <div class="g-recaptcha" data-sitekey="6LfInNgUAAAAAHcODvqyfM5JIqoKGNpHRV8_UgWr"></div>
+                                <div class="g-recaptcha" data-sitekey=""></div>
                                 </div>
                                 <button id="submit_button"
                                     class=" bg-prune-dark font-family-bebas font-size-24 text-blue  border-0"
