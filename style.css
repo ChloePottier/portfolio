@@ -296,7 +296,7 @@ input{
     .bg-guitare{background: url(img/guitare-767.png) left bottom no-repeat;}
 
     .bg-contact{
-        background: linear-gradient( rgb(163,116,148) 56%, rgb(162,218,234) 44%);
+        background: linear-gradient( rgb(163,116,148) 62%, rgb(162,218,234) 40%);
     }
     #contact .w-75{width: 100%!important;}
     #submit_button{width: 100%;}
@@ -330,6 +330,7 @@ input{
       .card:hover .card__side--back {
         transform: none;
       }
+      .pb-sm-6{padding-bottom: 4rem;}
 }
 @media (max-width: 575px){
     .bg-graphiste{
@@ -367,7 +368,8 @@ input{
     #experience .align-items-end,#formation .align-items-end{align-items: start!important;}
     #experience .justify-content-end{ justify-content: start!important;}
     .pb-6{padding-bottom: 0;}
-    .pb-sm-6{padding-bottom: 4rem;}
     .border-bottom{border-bottom: solid 1px rgb(207, 207, 207)!important;}
     /* #experience{border-bottom: none;} */
+    .bg-contact{background: linear-gradient( rgb(163,116,148) 58%, rgb(162,218,234) 42%);}
+    
 }
