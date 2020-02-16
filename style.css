@@ -45,6 +45,7 @@ body{
     height: 100vh;
     background: url(img/graphiste.jpg) left top no-repeat;
 }
+.bg-guitare{background: url(img/Chloe-pottier-guitare.png) left top no-repeat;}
 .bg-cover{background-size: cover !important;}
 
 /* Font */
@@ -291,6 +292,8 @@ input{
         height: 100vh;
         background: url(img/graphiste-h1024.jpg) left top no-repeat;
     }
+    .bg-guitare{background: url(img/guitare-767.png) left bottom no-repeat;}
+
     .bg-contact{
         background: linear-gradient( rgb(163,116,148) 56%, rgb(162,218,234) 44%);
     }
@@ -332,6 +335,21 @@ input{
         height: 100vh;
         background: url(img/graphiste-h768.jpg) left top no-repeat;
     }
+    .download-cv{
+        display: block;
+        width: 4.375rem;
+        height: 4.375rem;
+        background-image: url(img/logo-cv-70.svg);
+    }
+    .download-cv:hover{
+        background-image: url(img/logo-cv-hover-70.svg);
+    }
+    .snow-agency{background: url(img/snow-agency-min-sm.jpg) no-repeat center;}
+    .blueasy{background: url(img/blueasy-min-sm.jpg) no-repeat center;}
+    .vin-fr{background: url(img/vin-fr-min-sm.jpg)  no-repeat center;}
+    .chancel{background: url(img/chancel-min-sm.jpg)  no-repeat center;}
+    .modularite{background: url(img/modularite-min-sm.jpg)  no-repeat center;}
+    .flappy-mario{background: url(img/flappy-mario-min-sm.jpg)  no-repeat center;}
     .card__side {width: 100%;}
     .bac-stt,.licence,.dgd-formation,.acs-formation,.jeager,.modularite1,.modularite2{background:none;}
     #experience .align-items-end,#formation .align-items-end{align-items: start!important;}

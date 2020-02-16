@@ -23,14 +23,14 @@
     <!-- Portfolio -->
     <div class="container-fluid" id="portfolio">
         <div class="container pb-5">
-            <div class="row py-5 d-flex">
-                <div class="col-12 text-center pt-5">
+            <div class="row py-5 d-flex bg-guitare">
+                <div class="col-12 text-center pt-5 pb-3">
                     <h1 class="text-prune-dark pb-5">Bienvenue sur mon portfolio !</h1>
                     <p class="text-prune font-size-18">Graphiste depuis quelques années, je suis actuellement en
                         formation développeuse web et web mobile.<br /> Voici mes travaux réalisés au cours de cette
                         formation. Bonne visite !</p>
                 </div>
-                <div class="col d-flex justify-content-end pb-5">
+                <div class="col d-flex justify-content-end pt-5">
                     <!--LIEN CV-->
                     <a href="" class="download-cv "></a>
                 </div>
@@ -161,18 +161,18 @@
             </div>
             <div class="row  text-prune-dark">
                 <div class="col-12 col-sm jeager py-3 py-sm-0 border-bottom pb-6 ">
-                    <p class="pl-0 pl-sm-5">Été 2007/ été 2008 /été 2009<br />
+                    <p class="pl-5 pl-sm-5">Été 2007/ été 2008 /été 2009<br />
                         <span class="font-weight-bold">Gestion parc informatique</span><br />
                         Jeager-Lecoultre</p>
                 </div>
                 <div class="col-12 col-sm modularite1 py-3 py-sm-0 border-bottom pb-6">
-                    <p class="d-flex align-items-end flex-column pr-3">2011 - 2017<br />
+                    <p class="pl-5 pl-md-0 d-flex align-items-end flex-column pr-3">2011 - 2017<br />
                         <span class="font-weight-bold">Infographiste</span><br />
                         sarl Modularité<br />
                     </p>
                 </div>
                 <div class="col-12 col-sm pb-6 pt-3 pt-sm-0 modularite2 d-flex justify-content-end">
-                    <p class="pr-5">2018<br />
+                    <p class="pl-5 pl-md-0 pr-5">2018<br />
                         <span class="font-weight-bold">Création boutique<br />
                             Prestashop</span><br />
                         sarl Modularité</p>
@@ -188,20 +188,20 @@
                     <h1 class="text-prune-dark">Formation</h1 class="text-prune-dark">
                 </div>
                 <div class="col-12 col-sm pt-0 pt-sm-5 bac-stt py-3 py-sm-0 border-bottom">
-                    <p class="pl-0 pt-0 pt-sm-5 d-flex flex-column">
+                    <p class="pl-5 pl-md-0  pt-0 pt-sm-5 d-flex flex-column">
                         2006<br />
                         <span class="font-weight-bold">BAC STT IG</span><br />
                         option Arts Plastiques
                     </p>
                 </div>
                 <div class="col-12 col-sm pt-0 pt-sm-5 licence py-3 py-sm-0 border-bottom">
-                    <p class="pt-0 pt-sm-5 d-flex flex-column">2009<br />
+                    <p class="pl-5 pl-md-0 pt-0 pt-sm-5 d-flex flex-column">2009<br />
                         <span class="font-weight-bold">Licence Arts Plastiques</span><br />
                         option Infographie et<br />
                         multimédia</p>
                 </div>
                 <div class="col-12 col-sm pt-0 pt-sm-5  dgd-formation py-3 py-sm-0 border-bottom">
-                    <p class="pt-0 pt-sm-5 d-flex flex-column">
+                    <p class="pl-5 pl-md-0 pt-0 pt-sm-5 d-flex flex-column">
                         2010 - 2011<br />
                         <span class="font-weight-bold">DGD Formation</span><br />
                         Conception ingénierie<br />
@@ -209,7 +209,7 @@
                     </p>
                 </div>
                 <div class="col-12 col-sm pt-3 pt-sm-5  acs-formation">
-                    <p class="pt-0 pt-sm-5  d-flex flex-column align-items-end">
+                    <p class="pl-5 pl-md-0 pt-0 pt-sm-5 d-flex flex-column align-items-end">
                         2019 - 2020<br />
                         <span class="font-weight-bold">Access Code School<br /></span>
                         en cours de formation<br />
