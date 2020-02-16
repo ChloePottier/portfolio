@@ -252,7 +252,7 @@
                                     class="bg-white-op40 border-0 text-prune-dark  font-family-bebas pl-3 mb-3"
                                     placeholder="Votre message *" cols="30" rows="10" type="text" required></textarea>
                             </div>
-                            <div class="d-flex flex-column pb-5 pb-md-0">
+                            <div class="d-flex flex-column pb-5 pb-sm-0">
                                 <div>
                                 <div class="g-recaptcha" data-sitekey=""></div>
                                 </div>
