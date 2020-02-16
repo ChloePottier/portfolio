@@ -300,9 +300,19 @@
                 navigation.classList.toggle("display-flex");
                 burger.classList.toggle("text-white");
                 burger1.classList.toggle("bg-white");
+                burger1.classList.toggle("isopen-burger1");
                 burger2.classList.toggle("bg-white");
+                burger2.classList.toggle("isopen-burger2");
                 burger3.classList.toggle("bg-white");
+                burger3.classList.toggle("isopen-burger3");
+
+                // let navLi = document.getElementsById("portfolio1");
+                // navLi.addEventListener("click", function () {
+                // navigation.classList.toggle("display-none");
+            // });
         });
+        
+
     </script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"

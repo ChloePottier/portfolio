@@ -18,13 +18,13 @@
                         </nav>
                         <label class="burger text-center d-flex flex-column d-md-none text-prune-dark font-size-13 position-fixed"
                             id="burger">MENU
-                            <span class="bg-prune-dark-menu" id="burger1">&nbsp;</span>
-                            <span class="bg-prune-dark-menu" id="burger2">&nbsp;</span>
-                            <span class="bg-prune-dark-menu" id="burger3">&nbsp;</span>
+                            <span class="bg-prune-dark-menu isclosed" id="burger1">&nbsp;</span>
+                            <span class="bg-prune-dark-menu isclosed" id="burger2">&nbsp;</span>
+                            <span class="bg-prune-dark-menu isclosed" id="burger3">&nbsp;</span>
                         </label>
                         <nav class="menu-burger display-none bg-prune-dark-op70 px-auto" id="navigation">
                             <ul class="list-unstyled font-family-bebas font-size-31 text-right pt-5">
-                                <li class=""><a href="#portfolio" class="pb-2 text-decoration-none">Portfolio</a></li>
+                                <li class=""><a href="#portfolio" class="pb-2 text-decoration-none" id="portfolio1">Portfolio</a></li>
                                 <li class=""><a href="#competences" class="pb-2 text-decoration-none">Compétences</a>
                                 </li>
                                 <li class=""><a href="#formation" class="pb-2 text-decoration-none">Formation</a></li>

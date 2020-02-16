@@ -124,15 +124,28 @@ nav ul{
 .display-flex{
    display: flex;flex-direction: column;
 }
-#burger span {
+
+/* #burger span {
+    width: 35px;
+    height: 4px;
+    display: block;
+    margin-bottom: 6px;
+} */
+.burger span:last-child {
+    margin-bottom:0px;
+}
+
+.isclosed{transform: none; 
     width: 35px;
     height: 4px;
     display: block;
     margin-bottom: 6px;
 }
-.burger span:last-child {
-    margin-bottom:0px;
-}
+.isopen-burger1{transform: skew(5deg) translateY(12px) rotate(45deg);}
+.isopen-burger2{display: none;}
+.isopen-burger3{transform: skew(5deg) translateY(2px) rotate(-45deg);}
+
+
 .ChloeLogo{
     vertical-align: middle;
 }
