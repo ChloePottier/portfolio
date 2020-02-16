@@ -335,6 +335,7 @@ input{
         height: 100vh;
         background: url(img/graphiste-h768.jpg) left top no-repeat;
     }
+    .bg-guitare{background: url(img/guitare-575.png) left bottom 1rem no-repeat;}
     .download-cv{
         display: block;
         width: 4.375rem;
@@ -351,7 +352,17 @@ input{
     .modularite{background: url(img/modularite-min-sm.jpg)  no-repeat center;}
     .flappy-mario{background: url(img/flappy-mario-min-sm.jpg)  no-repeat center;}
     .card__side {width: 100%;}
-    .bac-stt,.licence,.dgd-formation,.acs-formation,.jeager,.modularite1,.modularite2{background:none;}
+    /* Formation, expérience */
+    .jeager, .modularite2, .bac-stt{
+        background: url(img/flower-little-sm.svg) no-repeat;
+        background-position: left 1rem center;
+    
+    }
+    .modularite1, .licence, .dgd-formation,.acs-formation{
+        background: url(img/flower-big-sm.svg) no-repeat;
+        background-position: left 1rem center;
+    
+    }
     #experience .align-items-end,#formation .align-items-end{align-items: start!important;}
     #experience .justify-content-end{ justify-content: start!important;}
     .pb-6{padding-bottom: 0;}
