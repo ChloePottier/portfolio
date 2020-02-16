@@ -160,19 +160,19 @@
                 </div>
             </div>
             <div class="row  text-prune-dark">
-                <div class="col-12 col-sm jeager py-3 py-sm-0 border-bottom pb-6 ">
-                    <p class="pl-5 pl-sm-5">Été 2007/ été 2008 /été 2009<br />
+                <div class="col-12 col-sm-4 col-md jeager py-3 py-sm-0 border-bottom pb-6 ">
+                    <p class="pl-5 pl-sm-0 pl-lg-5">Été 2007/ été 2008 /été 2009<br />
                         <span class="font-weight-bold">Gestion parc informatique</span><br />
                         Jeager-Lecoultre</p>
                 </div>
-                <div class="col-12 col-sm modularite1 py-3 py-sm-0 border-bottom pb-6">
-                    <p class="pl-5 pl-md-0 d-flex align-items-end flex-column pr-3">2011 - 2017<br />
+                <div class="col-12 col-sm-4 col-md modularite1 py-3 py-sm-0 border-bottom pb-6">
+                    <p class="pl-5 pl-sm-0 d-flex align-items-end flex-column pr-3">2011 - 2017<br />
                         <span class="font-weight-bold">Infographiste</span><br />
                         sarl Modularité<br />
                     </p>
                 </div>
-                <div class="col-12 col-sm pb-6 pt-3 pt-sm-0 modularite2 d-flex justify-content-end">
-                    <p class="pl-5 pl-md-0 pr-5">2018<br />
+                <div class="col-12 col-sm-4 col-md pb-6 pt-3 pt-sm-0 modularite2 d-flex justify-content-end">
+                    <p class="pl-5 pl-md-0 pr-lg-5">2018<br />
                         <span class="font-weight-bold">Création boutique<br />
                             Prestashop</span><br />
                         sarl Modularité</p>
@@ -181,35 +181,35 @@
         </div>
     </div>
     <!-- Formation -->
-    <div class="container-fluid" id="formation">
+    <div class="container-fluid " id="formation">
         <div class="container text-prune-dark">
             <div class="row pb-5">
                 <div class="col-12 d-block d-sm-none py-5 py-sm-0">
-                    <h1 class="text-prune-dark">Formation</h1 class="text-prune-dark">
+                    <h1 class="text-prune-dark pt-5 pt-sm-0">Formation</h1 class="text-prune-dark">
                 </div>
-                <div class="col-12 col-sm pt-0 pt-sm-5 bac-stt py-3 py-sm-0 border-bottom">
-                    <p class="pl-5 pl-md-0  pt-0 pt-sm-5 d-flex flex-column">
+                <div class="col-12 col-sm-3 col-md pl-sm-0 pt-0 pt-sm-5 bac-stt py-3 py-sm-0 border-bottom">
+                    <p class="pl-5 pl-sm-0  pt-0 pt-sm-5 d-flex flex-column">
                         2006<br />
                         <span class="font-weight-bold">BAC STT IG</span><br />
                         option Arts Plastiques
                     </p>
                 </div>
-                <div class="col-12 col-sm pt-0 pt-sm-5 licence py-3 py-sm-0 border-bottom">
-                    <p class="pl-5 pl-md-0 pt-0 pt-sm-5 d-flex flex-column">2009<br />
+                <div class="col-12 col-sm-3 col-md pt-0 pt-sm-5 licence py-3 py-sm-0 border-bottom">
+                    <p class="pl-5 pl-sm-0 pt-0 pt-sm-5 d-flex flex-column">2009<br />
                         <span class="font-weight-bold">Licence Arts Plastiques</span><br />
                         option Infographie et<br />
                         multimédia</p>
                 </div>
-                <div class="col-12 col-sm pt-0 pt-sm-5  dgd-formation py-3 py-sm-0 border-bottom">
-                    <p class="pl-5 pl-md-0 pt-0 pt-sm-5 d-flex flex-column">
+                <div class="col-12 col-sm-3 col-md pt-0 pt-sm-5  dgd-formation py-3 py-sm-0 border-bottom">
+                    <p class="pl-5 pl-sm-0 pt-0 pt-sm-5 d-flex flex-column">
                         2010 - 2011<br />
                         <span class="font-weight-bold">DGD Formation</span><br />
                         Conception ingénierie<br />
                         internet et multimédia
                     </p>
                 </div>
-                <div class="col-12 col-sm pt-3 pt-sm-5  acs-formation">
-                    <p class="pl-5 pl-md-0 pt-0 pt-sm-5 d-flex flex-column align-items-end">
+                <div class="col-12 col-sm-3 col-md pt-3 pt-sm-5  acs-formation">
+                    <p class="text-sm-right pl-5 pl-sm-0 pt-0 pt-sm-5 d-flex flex-column align-items-end">
                         2019 - 2020<br />
                         <span class="font-weight-bold">Access Code School<br /></span>
                         en cours de formation<br />
@@ -218,18 +218,19 @@
                     </p>
                 </div>
                 <div class="col-12 d-none d-sm-block ">
-                    <h1 class="text-prune-dark">Formation</h1 class="text-prune-dark">
+                    <h1 class="text-prune-dark pb-0 pb-md-5">Formation</h1 class="text-prune-dark">
                 </div>
             </div>
         </div>
     </div>
+    <!-- CONTACT -->
     <footer>
         <div class="container-fluid bg-contact" id="contact">
             <div class="container">
                 <div class="row py-5">
                     <div class="col-12 col-md-6">
-                        <h1 class="text-prune-dark">Contact</h1>
-                        <form action="traitement.php" method="POST">
+                        <h1 class="text-prune-dark pt-5">Contact</h1>
+                        <form action="traitement.php" method="POST" class="pb-sm-6">
                             <div class="d-flex flex-column w-75 font-size-18">
                                 <input type="text" name="nom" id="nom"
                                     class="bg-white-op40 border-0 text-prune-dark  font-family-bebas pl-3 mb-3"
