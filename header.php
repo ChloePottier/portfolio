@@ -16,6 +16,7 @@
                                 <li class=""><a href="index.php#contact" class="text-prune-dark">Contact</a></li>
                             </ul>
                         </nav>
+                        <!-- Menu Burger -->
                         <label class="burger text-center d-flex flex-column d-md-none text-prune-dark font-size-13 position-fixed"
                             id="burger">MENU
                             <span class="bg-prune-dark-menu isclosed" id="burger1">&nbsp;</span>
@@ -41,7 +42,7 @@
                 <div class="row">
                     <!-- bannière + logo -->
                     <div class="col-12 d-flex justify-content-center align-items-center vh-100">
-                        <img src="img/ChloePottier-logo-blanc.png" alt="Logo Chloé Pottier" class="d-block ChloeLogo">
+                        <img src="img/ChloePottier-logo-blanc.png" alt="Logo Chloé Pottier" class="d-block ChloeLogo" id="sun">
                     </div>
                 </div>
             </div>
@@ -63,4 +64,6 @@
                 burger3.classList.toggle("bg-white");
                 burger3.classList.toggle("isopen-burger3");
         });
+        
+
     </script>

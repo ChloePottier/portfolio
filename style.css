@@ -35,6 +35,9 @@ body{
     background-color: rgb(91,19,60);
 }
 .bg-white{background-color: #fff;}
+.bg-prune{
+    background-color: rgb(91,19,60);
+}
 .bg-prune-dark-op70{
     background-color: rgba(91,19,60,.8);
 }
@@ -122,7 +125,10 @@ nav ul{
     display:none;
 }
 .display-flex{
-   display: flex;flex-direction: column;
+   display: flex; flex-direction: column;
+}
+.dis-none{
+    display:none;
 }
 
 /* #burger span {
@@ -144,6 +150,12 @@ nav ul{
 .isopen-burger1{transform: skew(5deg) translateY(12px) rotate(45deg);}
 .isopen-burger2{display: none;}
 .isopen-burger3{transform: skew(5deg) translateY(2px) rotate(-45deg);}
+.isclosed2{transform: none; 
+    width: 35px;
+    height: 4px;
+    display: block;
+    margin-bottom: 6px;
+}
 
 
 .ChloeLogo{

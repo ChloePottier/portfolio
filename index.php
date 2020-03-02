@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
         content="Chloé Pottier, graphiste et apprenante développeur web. Actuellement en formation chez Access Code School, à Lons-Le-Saunier, Jura (39)." />
-    <meta name="keywords" content="Chloé Pottier portfolio graphiste développeur web infographiste Saint-Amour Jura" />
+    <meta name="keywords" content="Chloé Pottier portfolio graphiste développeur web infographiste Saint-Amour Jura 39" />
     <meta property="og:title" content="Chloé Pottier graphiste développeur web" />
     <meta property="og:url" content="http://chloepottierinfographiste.fr" />
+    <meta property="og:description" content="Chloé Pottier, graphiste et apprenante développeur web. Actuellement en formation chez Access Code School, à Lons-Le-Saunier, Jura (39)." />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -139,8 +140,8 @@
                 <div class="col-12 col-md-4 competences-web">
                     <p class="text-white text-center pt-9">HTML, CSS<br />
                         Bootstrap<br />
-                        Javascript<br />
-                        PHP</p>
+                        PHP, MySQL<br />
+                        Javascript</p>
                 </div>
                 <div class="col-12 col-md-4 competences-cms">
                     <p class="text-white text-center pt-9">
@@ -254,7 +255,7 @@
                             </div>
                             <div class="d-flex flex-column pb-5 pb-sm-0">
                                 <div>
-                                <div class="g-recaptcha" data-sitekey=""></div>
+                                <div class="g-recaptcha" data-sitekey="6LfInNgUAAAAAHcODvqyfM5JIqoKGNpHRV8_UgWr"></div>
                                 </div>
                                 <button id="submit_button"
                                     class=" bg-prune-dark font-family-bebas font-size-24 text-blue  border-0"
@@ -290,30 +291,6 @@
         </div>
 
     </footer>
-    <script>
-        let burger = document.getElementById("burger");
-        let navigation = document.getElementById("navigation");
-        let burger1 = document.getElementById("burger1");
-        let burger2 = document.getElementById("burger2");
-        let burger3 = document.getElementById("burger3");
-            burger.addEventListener("click", function () {
-                navigation.classList.toggle("display-flex");
-                burger.classList.toggle("text-white");
-                burger1.classList.toggle("bg-white");
-                burger1.classList.toggle("isopen-burger1");
-                burger2.classList.toggle("bg-white");
-                burger2.classList.toggle("isopen-burger2");
-                burger3.classList.toggle("bg-white");
-                burger3.classList.toggle("isopen-burger3");
-
-                // let navLi = document.getElementsById("portfolio1");
-                // navLi.addEventListener("click", function () {
-                // navigation.classList.toggle("display-none");
-            // });
-        });
-        
-
-    </script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
