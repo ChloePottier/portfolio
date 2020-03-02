@@ -39,7 +39,7 @@ h1,.font-size-36{font-size: 2.25rem;}
 header{overflow: hidden;}
 .logo-CP{background: url(img/CP-logo.svg) no-repeat; width: 50px; height: 50px;}
 .logo-CP:hover{background: url(img/CP-logo-hover.svg);}
-nav ul{scroll-behavior : smooth ;     /* défilement */}
+nav ul{scroll-behavior : smooth ;/* défilement */}
 .menu-nav ul li a{
     padding-left: 1rem;
 }
@@ -98,6 +98,19 @@ nav ul{scroll-behavior : smooth ;     /* défilement */}
 .ChloeLogo{
     vertical-align: middle;
 }
+/* Animation du  logo : rotation infini */
+.rotate-90-cw {
+	animation: rotate-90-cw 60s linear infinite both; 
+}
+ @keyframes rotate-90-cw {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(180deg);
+    }
+  }
+  
 /* Portfolio */
 .h-250{height:250px;}
 .border{border: solid 1px #b2b2b2 !important;}
