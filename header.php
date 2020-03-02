@@ -1,5 +1,5 @@
 <header>
-        <div class="container-fluid">
+        <div class="container-fluid d-none d-md-block">
             <div class="container">
                 <div class="row nav-top">
                     <div class="col d-flex align-items-center">
@@ -16,12 +16,19 @@
                                 <li class=""><a href="index.php#contact" class="text-prune-dark">Contact</a></li>
                             </ul>
                         </nav>
-                        <!-- Menu Burger -->
-                        <label class="burger text-center d-flex flex-column d-md-none text-prune-dark font-size-13 position-fixed"
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-graphiste bg-cover">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                    <label class="burger text-center d-flex flex-column d-md-none text-white font-size-13 position-fixed rounded-circle bg-burger"
                             id="burger">MENU
-                            <span class="bg-prune-dark-menu isclosed" id="burger1">&nbsp;</span>
-                            <span class="bg-prune-dark-menu isclosed" id="burger2">&nbsp;</span>
-                            <span class="bg-prune-dark-menu isclosed" id="burger3">&nbsp;</span>
+                            <span class="bg-white isclosed mx-auto" id="burger1">&nbsp;</span>
+                            <span class="bg-white isclosed mx-auto" id="burger2">&nbsp;</span>
+                            <span class="bg-white isclosed mx-auto" id="burger3">&nbsp;</span>
                         </label>
                         <nav class="menu-burger display-none bg-prune-dark-op70 px-auto" id="navigation">
                             <ul class="list-unstyled font-family-bebas font-size-31 text-right pt-5">
@@ -35,10 +42,6 @@
                         </nav>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="container-fluid bg-graphiste bg-cover">
-            <div class="container">
                 <div class="row">
                     <!-- bannière + logo -->
                     <div class="col-12 d-flex justify-content-center align-items-center vh-100">
@@ -56,12 +59,9 @@
         let burger3 = document.getElementById("burger3");
             burger.addEventListener("click", function () {
                 navigation.classList.toggle("display-flex");
-                burger.classList.toggle("text-white");
-                burger1.classList.toggle("bg-white");
+                burger.classList.toggle("bg-none");
                 burger1.classList.toggle("isopen-burger1");
-                burger2.classList.toggle("bg-white");
                 burger2.classList.toggle("isopen-burger2");
-                burger3.classList.toggle("bg-white");
                 burger3.classList.toggle("isopen-burger3");
         });
         
