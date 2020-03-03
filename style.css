@@ -237,11 +237,13 @@ nav ul{scroll-behavior : smooth ;/* défilement */}
 input{
     height: 40px;
 }
-#submit_button,.btn-retour{
+.text-success,.text-success:hover{color:#5b133c!important}
+.text-danger,.text-danger:hover{color:#e71600!important}
+#form-submit,.btn-retour{
     width: 237px;
     height: 40px;
 }
-#submit_button:hover,.btn-retour{
+#form-submit:hover,.btn-retour{
     background-color: rgba(97,190,223);
     color: #58133C;
 }

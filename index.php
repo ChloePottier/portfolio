@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Walter+Turncoat&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.js">
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="style.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Chloé Pottier - Portfolio - graphiste développeuse web - jura</title>
@@ -231,35 +234,42 @@
                 <div class="row py-5">
                     <div class="col-12 col-md-6">
                         <h1 class="text-prune-dark pt-0 pt-sm-5">Contact</h1>
-                        <form action="traitement.php" method="POST" class="pb-sm-6">
+                        <form method="POST" class="pb-sm-6 shake" id="contactForm" data-toggle="validator"  role="form">
+
+                        <!-- <form action="traitement.php" method="POST" class="pb-sm-6" id="contactForm"> -->
                             <div class="d-flex flex-column w-75 font-size-18">
                                 <input type="text" name="nom" id="nom"
                                     class="bg-white-op40 border-0 text-prune-dark  font-family-bebas pl-3 mb-3"
                                     placeholder="Nom *" required />
+                                    <div class="help-block with-errors"></div>
                                 <input type="text" name="prenom" id="prenom"
                                     class="bg-white-op40 border-0 text-prune-dark  font-family-bebas  pl-3 mb-3"
                                     placeholder="Prénom *" required />
+                                    <div class="help-block with-errors"></div>
                                 <input type="text" name="societe" id="societe"
                                     class="bg-white-op40 border-0 text-prune-dark font-family-bebas  pl-3 mb-3"
                                     placeholder="Société" />
-                                <input type="text" name="telephone" id="tel"
+                                <input type="text" name="telephone" id="telephone"
                                     class="bg-white-op40 border-0 text-prune-dark  font-family-bebas  pl-3 mb-3"
                                     placeholder="Téléphone" />
                                 <input type="email" name="email" id="email"
                                     pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]{2,8}$"
                                     class="bg-white-op40 border-0 text-prune-dark  font-family-bebas pl-3 mb-3"
                                     placeholder="E-mail *" required />
+                                    <div class="help-block with-errors"></div>
                                 <textarea name="message" id="message" 
                                     class="bg-white-op40 border-0 text-prune-dark  font-family-bebas pl-3 mb-3"
                                     placeholder="Votre message *" cols="30" rows="10" required></textarea>
+                                    <div class="help-block with-errors"></div>
                             </div>
                             <div class="d-flex flex-column pb-5 pb-sm-0">
                                 <div>
-                                    <div class="g-recaptcha" data-sitekey="6LfInNgUAAAAAHcODvqyfM5JIqoKGNpHRV8_UgWr"></div>
+                                    <!-- <div class="g-recaptcha" data-sitekey="6LfInNgUAAAAAHcODvqyfM5JIqoKGNpHRV8_UgWr"></div> -->
                                 </div>
-                                <button id="submit_button"
-                                    class=" bg-prune-dark font-family-bebas font-size-24 text-blue  border-0"
+                                <button id="form-submit"
+                                    class="bg-prune-dark font-family-bebas font-size-24 text-blue  border-0"
                                     type="submit" >ENVOYER</button>
+                                    <div id="msgSubmit" class="h3 hidden"></div> 
                             </div>
                         </form>
                         
@@ -289,11 +299,11 @@
                 </div>
             </div>
         </div>
-
     </footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
+    <!-- Script JQUERY pour Ajax -->
+    <script  type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="js/validator.min.js"></script>
+<script type="text/javascript" src="js/form-scripts.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
