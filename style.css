@@ -3,6 +3,7 @@ body{font-family: 'Roboto',Arial, Helvetica, sans-serif; font-size: 100%; }
 .pb-6{padding-bottom: 4rem;}
 /* Colors */
 .text-prune-dark{color: rgb(91,19,60);}
+::placeholder{color: rgb(91,19,60);}
 .text-white{ color: #fff;}
 .text-prune{color: rgb(145,33,92);}
 .text-blue{color: rgb(97,190,223);}
@@ -245,7 +246,7 @@ input{
     color: #58133C;
 }
 .envoi{
-    top:40vh;
+    top: 26vh;
     width: 100vw;}
 .w-66px{
     width: 66px;

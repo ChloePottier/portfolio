@@ -74,7 +74,7 @@
                         <div class="card__cta">
                             <div class="page">
                                 <div class="page__container">
-                                    <p class="text-white text-decoration-none py-1 py-md-0 m-0" target="_blank">Exercice d'intégration.<br />
+                                    <p class="text-white text-decoration-none py-1 py-md-0 m-0">Exercice d'intégration.<br />
                                         Langages : HTML / CSS<br/>
                                     </p>
                                 </div>
@@ -82,13 +82,13 @@
                         </div>
                     </div>
                 </a>
-                <a href="http://www.refuge-chancel.com/" target="_blank" class="col-12 col-sm-6 col-md-4 card h-250 mb-3 mb-md-0">
+                <a href="http://www.refuge-chancel.com/"  class="col-12 col-sm-6 col-md-4 card h-250 mb-3 mb-md-0">
                     <div class="card__side card__side--front chancel h-250 bg-cover"></div>
                     <div class="card__side card__side--back card__side--back-1 bg-prune-dark">
                         <div class="card__cta">
                             <div class="page">
                                 <div class="page__container">
-                                    <p class="text-white text-decoration-none py-1 py-md-0 m-0" target="_blank">Utilisation de Wordpress,<br />
+                                    <p class="text-white text-decoration-none py-1 py-md-0 m-0" >Utilisation de Wordpress,<br />
                                         création d'un thème enfant
                                     </p>
                                 </div>
@@ -102,7 +102,7 @@
                         <div class="card__cta">
                             <div class="page">
                                 <div class="page__container">
-                                    <p class="text-white text-decoration-none py-1 py-md-0 m-0" target="_blank">Utilisation de Prestashop<br />
+                                    <p class="text-white text-decoration-none py-1 py-md-0 m-0" >Utilisation de Prestashop<br />
                                         création d'un thème enfant
                                     </p>
                                 </div>
@@ -116,7 +116,7 @@
                         <div class="card__cta">
                             <div class="page">
                                 <div class="page__container">
-                                    <p class="text-white text-decoration-none py-1 py-md-0 m-0" target="_blank">Reproduction du jeu "Flappy Bird"<br />
+                                    <p class="text-white text-decoration-none py-1 py-md-0 m-0" >Reproduction du jeu "Flappy Bird"<br />
                                         Langage : Canvas Javascript
                                     </p>
                                 </div>
@@ -186,7 +186,7 @@
         <div class="container text-prune-dark">
             <div class="row pb-5">
                 <div class="col-12 d-block d-sm-none py-5 py-sm-0">
-                    <h1 class="text-prune-dark pt-5 pt-sm-0">Formation</h1 class="text-prune-dark">
+                    <h1 class="text-prune-dark pt-5 pt-sm-0">Formation</h1>
                 </div>
                 <div class="col-12 col-sm-3 col-md pl-sm-0 pt-0 pt-sm-5 bac-stt py-3 py-sm-0 border-bottom">
                     <p class="pl-5 pl-sm-0  pt-0 pt-sm-5 d-flex flex-column">
@@ -219,7 +219,7 @@
                     </p>
                 </div>
                 <div class="col-12 d-none d-sm-block ">
-                    <h1 class="text-prune-dark pb-0 pb-md-5">Formation</h1 class="text-prune-dark">
+                    <h1 class="text-prune-dark pb-0 pb-md-5">Formation</h1>
                 </div>
             </div>
         </div>
@@ -249,24 +249,24 @@
                                     pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]{2,8}$"
                                     class="bg-white-op40 border-0 text-prune-dark  font-family-bebas pl-3 mb-3"
                                     placeholder="E-mail *" required />
-                                <textarea name="message" id="message" type="text" 
+                                <textarea name="message" id="message" 
                                     class="bg-white-op40 border-0 text-prune-dark  font-family-bebas pl-3 mb-3"
-                                    placeholder="Votre message *" cols="30" rows="10" type="text" required></textarea>
+                                    placeholder="Votre message *" cols="30" rows="10" required></textarea>
                             </div>
                             <div class="d-flex flex-column pb-5 pb-sm-0">
                                 <div>
-                                <div class="g-recaptcha" data-sitekey="6LfInNgUAAAAAHcODvqyfM5JIqoKGNpHRV8_UgWr"></div>
+                                    <div class="g-recaptcha" data-sitekey="6LfInNgUAAAAAHcODvqyfM5JIqoKGNpHRV8_UgWr"></div>
                                 </div>
                                 <button id="submit_button"
                                     class=" bg-prune-dark font-family-bebas font-size-24 text-blue  border-0"
-                                    type="submit">ENVOYER</button>
+                                    type="submit" >ENVOYER</button>
                             </div>
                         </form>
                         
                     </div>
                     <div class="col-12 col-md-6 d-flex justify-content-center flex-column pt-2 pt-md-0">
                         <!-- retrouvez moi -->
-                        <img src="img/ChloePottier-logo.svg" alt="Chloé Pottier logo" width=" 289.493" height="289.058 "
+                        <img src="img/ChloePottier-logo.svg" alt="Chloé Pottier logo" width="289" height="289"
                             class="mx-auto" />
                         <p class="font-family-bebas text-prune-dark font-size-31 line-height text-center pt-5">
                             Retrouvez-moi<br />aussi sur :</p>

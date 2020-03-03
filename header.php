@@ -32,6 +32,7 @@
                         </label>
                         <nav class="menu-burger display-none bg-prune-dark-op70 px-auto" id="navigation">
                             <ul class="list-unstyled font-family-bebas font-size-31 text-right pt-5">
+                                <li class=""><a href="index.php" class="pb-2 text-decoration-none">Home</a></li>
                                 <li class=""><a href="index.php#portfolio" class="pb-2 text-decoration-none" id="portfolio1">Portfolio</a></li>
                                 <li class=""><a href="#competences" class="pb-2 text-decoration-none">Compétences</a>
                                 </li>

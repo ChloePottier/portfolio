@@ -41,18 +41,18 @@
     $subject = "Formulaire de contact";
     $mailheaders = "From: Portfolio \n";
 
-        if (empty($nom) OR empty($email) OR empty($message)){
-                echo '<p class="envoi bg-prune-dark-menu position-absolute text-center text-white font-weight-600 font-size-24 mb-5 p-2">Veuillez remplir tous les champs</p>';
+        if (empty($nom) OR empty($prenom) OR empty($email) OR empty($message)){
+                echo '<p class="envoi bg-prune-dark position-absolute text-center text-white font-weight-600 font-size-24 mb-5 p-2">Veuillez remplir tous les champs</p>';
         }else if(empty($captcha)){
-            echo '<p class="envoi bg-prune-dark-menu position-absolute text-center text-white font-weight-600 font-size-24 mb-5 p-2">Merci de valider le captcha</p>';
+            echo '<p class="envoi bg-prune-dark position-absolute text-center text-white font-weight-600 font-size-24 mb-5 p-2">Merci de valider le captcha</p>';
         }else if(valid_email($email) == false){
-            echo '<p class="envoi bg-prune-dark-menu position-absolute text-center text-white font-weight-600 font-size-24 mb-5 p-2">Adresse e-mail invalide</p>';
+            echo '<p class="envoi bg-prune-dark position-absolute text-center text-white font-weight-600 font-size-24 mb-5 p-2">Adresse e-mail invalide</p>';
         } else{
             if($envoi=mail($destinataire, $subject, $msg, $mailheaders)) {
-                echo'<p class="envoi bg-prune-dark-menu position-absolute text-center text-white font-weight-600 font-size-24 mb-5 p-2">Merci '.$prenom.' '.$nom.', votre mail a bien été envoyé !</p>';
-                header("refresh:5;url=http://chloepottierinfographiste.fr/index.php");
+                echo'<p class="envoi bg-prune-dark position-absolute text-center text-white font-weight-600 font-size-24 mb-5 p-2">Merci '.$prenom.' '.$nom.', votre mail a bien été envoyé !</p>';
+                echo ' <meta http-equiv="refresh" content="3;index.php"> ';
             }
-            else echo'<p class="envoi bg-prune-dark-menu position-absolute text-center text-white font-weight-600 font-size-24 mb-5 p-2">L\'envoi a échoué, merci de renouveller l\'opération !</p>';
+            else echo'<p class="envoi bg-prune-dark position-absolute text-center text-white font-weight-600 font-size-24 mb-5 p-2">L\'envoi a échoué, merci de renouveller l\'opération !</p>';
         };
         function valid_email($str) {
             return (!preg_match("/^([a-z0-9\+_\-]+)(\.[a-z0-9\+_\-]+)*@([a-z0-9\-]+\.)+[a-z]{2,6}$/ix", $str)) ? FALSE : TRUE;
