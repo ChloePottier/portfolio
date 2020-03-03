@@ -19,11 +19,13 @@ function submitForm(){
     var telephone = $("#telephone").val();
     var email = $("#email").val();
     var message = $("#message").val();
+    var captcha = $("#g-recaptcha-response").val();
+    
 
     $.ajax({
         type: "POST",
         url: "php/form-process.php",
-        data: "nom=" + nom + "&prenom=" + prenom + "&societe=" + societe + "&telephone=" + telephone + "&email=" + email + "&message=" + message,
+        data: "nom=" + nom + "&prenom=" + prenom + "&societe=" + societe + "&telephone=" + telephone + "&email=" + email + "&message=" + message + "&captcha=" + captcha,
         success : function(text){
             if (text == "Message envoyé !"){
                 formSuccess();

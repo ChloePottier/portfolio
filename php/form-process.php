@@ -28,14 +28,17 @@ if (empty($_POST["email"])) {
 } else {
     $email = $_POST["email"];
 }
-
 // MESSAGE
 if (empty($_POST["message"])) {
     $errorMSG .= "Votre message est obligatoire !";
 } else {
     $message = $_POST["message"];
 }
-
+if (empty($_POST["captcha"])) {
+    $errorMSG .= "Merci de valider le captcha !";
+} else {
+    $captcha = $_POST['captcha'];
+}
 
 $EmailTo = "chloe.pottier@free.fr";
 $Subject = "Formulaire de contact";

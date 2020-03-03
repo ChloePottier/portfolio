@@ -16,7 +16,6 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Walter+Turncoat&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.js">
-    <script src="scripts.js"></script>
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="style.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -262,15 +261,14 @@
                                     placeholder="Votre message *" cols="30" rows="10" required></textarea>
                                     <div class="help-block with-errors"></div>
                             </div>
-                            <div class="d-flex flex-column pb-5 pb-sm-0">
+                            <!-- <div class="d-flex flex-column pb-5 pb-sm-0"> -->
                                 <div>
-                                    <!-- <div class="g-recaptcha" data-sitekey="6LfInNgUAAAAAHcODvqyfM5JIqoKGNpHRV8_UgWr"></div> -->
                                 </div>
                                 <button id="form-submit"
                                     class="bg-prune-dark font-family-bebas font-size-24 text-blue  border-0"
                                     type="submit" >ENVOYER</button>
                                     <div id="msgSubmit" class="h3 hidden"></div> 
-                            </div>
+                            <!-- </div> -->
                         </form>
                         
                     </div>
