@@ -313,7 +313,7 @@
                             </div>
                             <!-- <div class="d-flex flex-column pb-5 pb-sm-0"> -->
                             <div>
-                                <div class="g-recaptcha" data-sitekey="6LfInNgUAAAAAHcODvqyfM5JIqoKGNpHRV8_UgWr" id="captcha"></div>
+                            <?php include "recaptcha.php"?>
                             </div>
                             <button id="form-submit" class="bg-prune-dark font-family-bebas font-size-24 text-blue  border-0" type="submit">ENVOYER</button>
                             <div id="msgSubmit" class="h3 hidden"></div>
