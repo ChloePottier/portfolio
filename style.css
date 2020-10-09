@@ -1,4 +1,5 @@
 body{font-family: 'Roboto',Arial, Helvetica, sans-serif; font-size: 100%; }
+.grecaptcha-badge{visibility: hidden;}
 .pt-9{padding-top: 9rem;}
 .pb-6{padding-bottom: 4rem;}
 /* Colors */
